@@ -1,0 +1,37 @@
+print("===== TRIP PLANNER AGENT =====")
+
+place = input("Which city would you like to visit? ")
+budget = int(input("Enter your available budget in PKR: "))
+
+if place.lower() == "multan":
+    if budget >= 20000:
+        print("You can plan a trip to Multan.")
+        print("Recommended: Multan Fort, Ghanta Ghar")
+    else:
+        print("Your budget is not enough for this trip.")
+
+elif place.lower() == "murree":
+    if budget >= 30000:
+        print("You can plan a trip to Murree.")
+        print("Recommended: Mall Road, Pindi Point")
+    else:
+        print("Your budget is low for this trip.")
+
+elif place.lower() == "peshawar":
+    if budget >= 24000:
+        print("You can plan a trip to Peshawar.")
+        print("Recommended: Qissa Khwani Bazaar, Bala Hisar Fort")
+    else:
+        print("Your budget is low for this trip.")
+
+
+
+
+===== FOOD DELIVERY AGENT =====
+What food would you like to order? pizza
+Enter your available budget in PKR: 1500
+
+You can order Pizza.
+Recommended: Chicken Pizza
+Price: 1200 PKR
+Thank you for using Food Delivery Agent!
